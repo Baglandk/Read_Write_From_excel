@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        //string excelPath = "/Users/baglan/Desktop/excel_to_sql.xlsx";
+        //string excelPath = "/Users/baglan/Desktop/excel_tosql.xlsx";
         string connectionString = @"Server=localhost; User Id=SA; Password=reallyStrongPwd123;
                                        Initial Catalog=PhoneBook;TrustServerCertificate=True;
                                         Integrated Security=False";

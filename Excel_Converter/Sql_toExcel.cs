@@ -25,7 +25,7 @@ internal class Sql_toExcel
     {
         using(XLWorkbook workBook = new XLWorkbook())
         {
-            workBook.AddWorksheet(tble2, "Table1");
+            workBook.AddWorksheet(tble2, "Table1 ");
             workBook.SaveAs(filePath);
         }
     }

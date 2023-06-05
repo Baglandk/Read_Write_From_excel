@@ -15,7 +15,7 @@ internal class Excel_to_sql
                 {
                     ConfigureDataTable = _ => new ExcelDataTableConfiguration
                     {
-                        UseHeaderRow = true // Set this to false if your Excel file doesn't have a header row
+                        UseHeaderRow = true // Set this to false if your excel file doesn't have a header row
                     }
                 });
                 return result.Tables[0];
